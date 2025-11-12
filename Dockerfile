@@ -2,7 +2,7 @@
 FROM python:3.12-slim
 
 # Carpeta de trabajo dentro del contenedor
-WORKDIR /app
+WORKDIR /
 
 # Copiar archivo de dependencias e instalarlas
 COPY requirements.txt .
